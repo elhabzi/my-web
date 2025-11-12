@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Les informations PC que je dois connaître en 2025</title>
+  <meta name="description" content="Guide pratique : hardware, OS, sécurité, choix d'achat et optimisation PC pour 2025." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Les informations PC à connaître en 2025</h1>
+      <nav>
+        <a href="#hardware">Hardware</a>
+        <a href="#os">Systèmes</a>
+        <a href="#secu">Sécurité</a>
+        <a href="#achat">Achat & compatibilité</a>
+        <a href="#optim">Optimisation</a>
+        <a href="#ressources">Ressources</a>
+      </nav>
+      <button id="theme-toggle" aria-label="Basculer thème">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <h2>Guide rapide pour avoir un PC moderne, sûr et performant</h2>
+      <p>Résumé : composants à prioriser, bonnes pratiques de sécurité et conseils d'achat 2025 (à actualiser selon sorties récentes).</p>
+    </section>
+
+    <section id="hardware">
+      <h2>1. Hardware — ce qui compte</h2>
+      <ul>
+        <li><strong>CPU :</strong> Priorise les performances par cœur pour jeux & productivité. Vérifie l'efficacité énergétique pour portables.</li>
+        <li><strong>GPU :</strong> Choisis selon tes usages (jeux, création 3D, IA/ML). Les cartes récentes apportent accélération matérielle — vérifie compatibilité VRAM et USB-C/DisplayPort.</li>
+        <li><strong>Mémoire (RAM) :</strong> 16&nbsp;Go minimum pour usage standard, 32+ Go pour montage/VM. Favorise DDR4+/DDR5 selon la carte mère.</li>
+        <li><strong>Stockage :</strong> SSD NVMe pour OS & apps (au moins 500&nbsp;Go), HDD pour stockage massif. Pense à la norme PCIe (Gen3/Gen4/Gen5) — mets à jour selon 2025.</li>
+        <li><strong>Carte mère :</strong> Vérifie support du socket CPU, nombre de M.2, slots RAM et compatibilité BIOS/UEFI.</li>
+        <li><strong>Alimentation :</strong> Certifiée (80+ Bronze/Gold) avec marge ~25–30% au-delà de ta consommation réelle.</li>
+      </ul>
+      <p class="note">⚠️ Remarque : vérifie les sorties/entrées (USB4/Thunderbolt/HDMI) et le facteur de forme (ATX/Micro-ATX/Mini-ITX).</p>
+    </section>
+
+    <section id="os">
+      <h2>2. Systèmes d'exploitation</h2>
+      <p>Windows, Linux, macOS (si Hackintosh / Mac réel) : choisis selon logiciels et compatibilité. Pour 2025, vérifie :</p>
+      <ol>
+        <li>Mises à jour majeures de Windows (nom / version à confirmer pour 2025).</li>
+        <li>Compatibilité des drivers GPU et chipset.</li>
+        <li>Support des fonctionnalités de sécurité (TPM, Secure Boot, Virtualization-based Security).</li>
+      </ol>
+    </section>
+
+    <section id="secu">
+      <h2>3. Sécurité & bonnes pratiques</h2>
+      <ul>
+        <li>Activer chiffrement disque (BitLocker / LUKS) et TPM si possible.</li>
+        <li>Mettre à jour OS et drivers régulièrement — planifier des sauvegardes automatiques.</li>
+        <li>Utiliser gestionnaire de mots de passe + authentification à deux facteurs (2FA).</li>
+        <li>Isoler comptes admin : utiliser un compte standard pour l'usage quotidien.</li>
+        <li>Réseau : segmenter le réseau domestique si tu utilises serveurs/IoT.</li>
+      </ul>
+    </section>
+
+    <section id="achat">
+      <h2>4. Achat & compatibilité</h2>
+      <p>Checklist rapide avant l'achat :</p>
+      <ul>
+        <li>Socket CPU / chipset supporté</li>
+        <li>Format boîtier vs carte mère</li>
+        <li>Nombre et type de connecteurs (SATA, M.2, PCIe)</li>
+        <li>Puissance d'alimentation et connecteurs GPU</li>
+        <li>Garantie & support constructeur</li>
+      </ul>
+      <p class="tip">🛒 Astuce : compare prix par composant et prends en compte la disponibilité et l'écosystème (ex : drivers logiciels, contrôleurs).</p>
+    </section>
+
+    <section id="optim">
+      <h2>5. Optimisation & maintenance</h2>
+      <ul>
+        <li>Profil de performance dans BIOS/UEFI (DOCP/XMP pour RAM), mais attention à la stabilité.</li>
+        <li>Maintenance : nettoyage physique, contrôle des températures, pâte thermique tous les 2–3 ans selon usage.</li>
+        <li>Surveillance : outils pour logs, température, utilisation GPU/CPU (exemples : HWInfo, CoreTemp, etc. — vérifier outils modernes 2025).</li>
+      </ul>
+    </section>
+
+    <section id="ressources">
+      <h2>6. Ressources & liens utiles</h2>
+      <p>Remplace ces emplacements par les références 2025 (tests GPU/CPU, comparateurs de prix, sites d'actualités hardware).</p>
+      <ul>
+        <li>Tests comparatifs (benchmark) — <em>mettre à jour</em></li>
+        <li>Guides de sécurité & sauvegarde — <em>mettre à jour</em></li>
+        <li>Forums/communautés pour dépannage (r/Hardware, forums spécialisés) — <em>mettre à jour</em></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact / Feedback</h2>
+      <p>Tu veux que je mette à jour des sections spécifiques pour 2025 ? Envoie-moi les liens ou les nouveautés.</p>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <label>
+          Ton email
+          <input type="email" id="email" required placeholder="ton@email.com" />
+        </label>
+        <label>
+          Message
+          <textarea id="message" rows="4" required placeholder="Ce que tu veux mettre à jour..."></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+      </form>
+      <p class="small">Formulaire local — ajoute un backend ou un service (ex : Formspree) pour envoi réel.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 — Guide PC — À actualiser selon nouveautés 2025. Construit Par Adam El Habzi.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
